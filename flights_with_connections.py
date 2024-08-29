@@ -1,7 +1,7 @@
 import requests
 import pandas as pd
 
-url = "http://homeworktask.infare.lt/search.php?from=MAD&to=FUE&depart=2024-03-13&return=2024-03-22"
+url = "http://home.lt/search.php?from=MAD&to=FUE&depart=2024-03-13&return=2024-03-22"
 response = requests.get(url)
 json_data = response.json()
 
